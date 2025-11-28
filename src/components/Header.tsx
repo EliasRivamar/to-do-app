@@ -1,6 +1,3 @@
-import { LeftIcon } from "../icons/LeftIcon";
-import { RightIcon } from "../icons/RightIcon";
-
 export function Header() {
   return (
     <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 dark:border-gray-700 px-4 sm:px-6 lg:px-8 py-3 bg-white/80 dark:bg-background-dark/80 sticky top-0 z-10 backdrop-blur-sm">
@@ -11,17 +8,6 @@ export function Header() {
           </svg>
         </div>
         <h2 className="text-[#111813] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Weekly Planner</h2>
-      </div>
-      <div className="flex flex-1 justify-end items-center gap-4">
-        <div className="flex gap-2">
-          <button className="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f0f4f2] dark:bg-white/10 text-[#111813] dark:text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5">
-            <LeftIcon />
-          </button>
-          <button className="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f0f4f2] dark:bg-white/10 text-[#111813] dark:text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5">
-            <RightIcon />
-          </button>
-        </div>
-        <div className="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" data-alt="User avatar image"></div>
       </div>
     </header>
   )
