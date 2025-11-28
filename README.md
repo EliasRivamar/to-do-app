@@ -1,78 +1,33 @@
-<<<<<<< HEAD
-# to-do-app
-Beginner React practice. Using useState and the TSX syntaxis. 
-=======
-# React + TypeScript + Vite
+📋 Task Manager — Productivity Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and intuitive task management web application built with React + TypeScript, featuring persistent storage using localStorage, progress visualization with SVG circular indicators, and a clean, minimal UI.
 
-Currently, two official plugins are available:
+This project is part of my personal portfolio, showcasing my skills in frontend development, state management, and building real-world reusable components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## React Compiler
+Create, edit, and manage daily tasks
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+LocalStorage persistence — your tasks remain saved even after refreshing the page
 
-## Expanding the ESLint configuration
+Task progress visualization using animated SVG circular progress bars
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Context API for global state management
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      
+Fully responsive layout for desktop and mobile
 
-      
-      tseslint.configs.recommendedTypeChecked,
-      
-      tseslint.configs.strictTypeChecked,
-      
-      tseslint.configs.stylisticTypeChecked,
+Organized by day — update tasks per day using updateTasks
 
-      
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Clean and modular component structure
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🧱 Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+React
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
->>>>>>> 607956e (First Commit)
+TypeScript
+
+Vite
+
+Context API
+
+TailwindCSS (if you're using it — remove if not)
