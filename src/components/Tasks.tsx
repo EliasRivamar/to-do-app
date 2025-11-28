@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from "react";
-import { DeleteIcon } from "../icons/DeleteIcon";
-import {type Task, type TasksProps } from '../types/types'
+import { DeleteIcon } from "../icons/DeleteIcon.tsx";
+import {type Task, type TasksProps } from '../types/types.ts'
 
 
 

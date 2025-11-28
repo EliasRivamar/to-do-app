@@ -1,4 +1,4 @@
-import {type ProgressCircleProps} from '../types/types'
+import {type ProgressCircleProps} from '../types/types.ts'
 
 export function ProgressCircle({ progress }: ProgressCircleProps) {
   const radius = 40;

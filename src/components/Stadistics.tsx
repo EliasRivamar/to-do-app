@@ -1,5 +1,5 @@
-import { useTasks } from "../hooks/useTask";
-import { ProgressCircle } from "./Progress";
+import { useTasks } from "../hooks/useTask.tsx";
+import { ProgressCircle } from "./Progress.tsx";
 
 export function Stadistics () {
   const { tasks } = useTasks();

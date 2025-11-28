@@ -1,5 +1,5 @@
 import { createContext, useEffect, useRef, useState } from "react";
-import { type TasksContextType, type Task } from '../types/types'
+import { type TasksContextType, type Task } from '../types/types.ts'
 
 export const TasksContext = createContext<TasksContextType | null>(null);
 

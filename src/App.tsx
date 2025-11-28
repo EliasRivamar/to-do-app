@@ -1,6 +1,5 @@
-import { Header } from './components/Header'
-import DayCard from './components/DayCards'
-import { Stadistics } from './components/Stadistics'
+import DayCard from './components/DayCards.tsx'
+import { Stadistics } from './components/Stadistics.tsx'
 
 export default function App() {
   return (

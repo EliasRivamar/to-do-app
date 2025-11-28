@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Tasks from "./Tasks";
-import { LeftIcon } from "../icons/LeftIcon";
-import { RightIcon } from "../icons/RightIcon";
-import { useTasks } from "../hooks/useTask";
+import Tasks from "./Tasks.tsx";
+import { LeftIcon } from "../icons/LeftIcon.tsx";
+import { RightIcon } from "../icons/RightIcon.tsx";
+import { useTasks } from "../hooks/useTask.tsx";
 
 
 const getDays = () => {
